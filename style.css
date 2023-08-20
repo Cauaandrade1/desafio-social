@@ -11,6 +11,7 @@ body{
     height: 100vh;
     background-color: black;
     background-image: url(pacote-d013/imagens/fundo-madeira.jpg);
+    background-attachment: fixed;
 }
 
 main{
@@ -40,6 +41,32 @@ main{
 }
 
 #redes-sociais > a > img{
-    width: 100px;
+    width: 80px;
     border-radius: 50%;
+    margin: 10px;
+}
+
+#redes-sociais{
+    text-align: right;       
+}
+
+#redes-sociais > a > img:hover{
+    border: 2px solid rgba(133, 133, 133, 0.295);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.63);
+    transition: 0.5s;
+}
+
+footer{
+    text-align: center;
+    padding: 5px;
+    color: white;
+    background-color: black;
+    margin-top: 7vh;
+}
+
+footer > p > a{
+    color: white;
+    text-decoration: none;
+    font-weight: bolder;
 }
